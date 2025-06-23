@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section
       className="relative w-full h-screen bg-gray-800 bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: `url('/public/images/anasayfa.jpg')` }} // Arka plan resmi
+      style={{ backgroundImage: `url('/images/anasayfa.jpg')` }} // Arka plan resmi
     >
       {/* Karartma katmanı */}
       <div className="absolute inset-0 bg-black/30 z-0" />
